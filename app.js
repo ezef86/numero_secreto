@@ -50,6 +50,12 @@ function generarNumeroSecreto() {
     }
 }
 
+function handleKeyPress(event) {
+    if (event.key === 'Enter') {
+        verificarIntento();
+    }
+}
+
 function condicionesIniciales () {
     asignarTextoElemento("h1", "Juego del número secreto");
     asignarTextoElemento("p", `Elige un número del 1 al ${numeroMaximo}`);
