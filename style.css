@@ -109,3 +109,8 @@ button {
     font-size: 32px;
     font-weight: 400;
 }
+
+.mensaje-error {
+    color: red;
+    font-weight: bold;
+}
